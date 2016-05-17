@@ -1,9 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import HelloWorldComponent from "./components/HelloWorldComponent";
 
-ReactDOM.render(
-    <HelloWorldComponent />,
-    document.getElementById('app')
-);
+import LoginViewComponent from "./pages/LoginViewComponent";
+
+
+var Main = function () {
+    return <div>
+        <LoginViewComponent/>
+    </div>
+}
+
+ReactDOM.render(<Main />, document.getElementById('app'));
