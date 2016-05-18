@@ -14,8 +14,13 @@
     "bootstrap": "3.3.6",
     "jquery": "2.2.3",
     "react": "15.0.1",
+<<<<<<< HEAD
     "react-bootstrap": "0.29.4",
     "react-dom": "15.0.1"
+=======
+    "react-dom": "15.0.1",
+    "react-router": "2.4.0"
+>>>>>>> c0f160b0ace89630ba7c468bf6e6e074a098affc
   },
   "devDependencies": {
     "babel-cli": "6.7.5",
